@@ -1,0 +1,45 @@
+/**
+ * @file code-themes/solarized.css
+ * @copyright MIT License
+ */
+
+body {
+    --solarized-base03:   #002b36;
+    --solarized-base02:   #073642;
+    --solarized-base01:   #586e75;
+    --solarized-base00:   #657b83;
+    --solarized-base0:    #839496;
+    --solarized-base1:    #93a1a1;
+    --solarized-base2:    #eee8d5;
+    --solarized-base3:    #fdf6e3;
+    --solarized-yellow:   #b58900;
+    --solarized-orange:   #cb4b16;
+    --solarized-red:      #dc322f;
+    --solarized-magenta:  #d33682;
+    --solarized-violet:   #6c71c4;
+    --solarized-blue:     #268bd2;
+    --solarized-cyan:     #2aa198;
+    --solarized-green:    #859900;
+
+    &.theme-light {
+        --code-background: var(--solarized-base3);
+        --code-normal:     var(--solarized-base00);
+        --code-comment:    var(--solarized-base1);
+    }
+
+    &.theme-dark {
+        --code-background: var(--solarized-base03);
+        --code-normal:     var(--solarized-base0);
+        --code-comment:    var(--solarized-base01);
+    }
+
+    --code-function:       var(--solarized-blue);
+    --code-important:      var(--solarized-red);
+    --code-keyword:        var(--solarized-green);
+    --code-operator:       var(--solarized-yellow);
+    --code-property:       var(--solarized-blue);
+    --code-punctuation:    var(--code-normal);
+    --code-string:         var(--solarized-cyan);
+    --code-tag:            var(--solarized-magenta);
+    --code-value:          var(--solarized-yellow);
+}

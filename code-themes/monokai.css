@@ -1,0 +1,43 @@
+/**
+ * @file code-themes/monokai.css
+ * @copyright MIT License
+ */
+
+body {
+    &.theme-light {
+        --monokai-background: #fcfcfa;
+        --monokai-text:       #29242a;
+        --monokai-accent1:    #e14775;
+        --monokai-accent2:    #e16032;
+        --monokai-accent3:    #cc7a0a;
+        --monokai-accent4:    #269d69;
+        --monokai-accent5:    #1c8ca8;
+        --monokai-accent6:    #7058be;
+        --monokai-dimmed3:    #a59fa0;
+    }
+
+    &.theme-dark {
+        --monokai-background: #221f22;
+        --monokai-text:       #fcfcfa;
+        --monokai-accent1:    #ff6188;
+        --monokai-accent2:    #fc9867;
+        --monokai-accent3:    #ffd866;
+        --monokai-accent4:    #a9dc76;
+        --monokai-accent5:    #78dce8;
+        --monokai-accent6:    #ab9df2;
+        --monokai-dimmed3:    #727072;
+    }
+
+    --code-background:  var(--monokai-background);
+    --code-normal:      var(--monokai-text);
+    --code-comment:     var(--monokai-dimmed3);
+    --code-function:    var(--monokai-accent4);
+    --code-important:   var(--monokai-accent2);
+    --code-keyword:     var(--monokai-accent1);
+    --code-operator:    var(--monokai-accent1);
+    --code-property:    var(--monokai-accent2);
+    --code-punctuation: var(--monokai-text);
+    --code-string:      var(--monokai-accent3);
+    --code-tag:         var(--monokai-accent5);
+    --code-value:       var(--monokai-accent6);
+}

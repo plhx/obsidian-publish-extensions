@@ -1,0 +1,36 @@
+/**
+ * @file code-themes/ayu.css
+ * @copyright MIT License
+ */
+
+body {
+    &.theme-light {
+        --code-background:  rgb(248, 249, 250);
+        --code-normal:      rgb(92, 97, 102);
+        --code-comment:     rgba(120, 123, 128, calc(153 / 255));
+        --code-function:    rgb(242, 174, 73);
+        --code-important:   rgb(76, 191, 153);
+        --code-keyword:     rgb(250, 141, 62);
+        --code-operator:    rgb(237, 147, 102);
+        --code-property:    rgb(57, 158, 230);
+        --code-punctuation: rgb(92, 97, 102);
+        --code-string:      rgb(134, 179, 0);
+        --code-tag:         rgb(85, 180, 212);
+        --code-value:       rgb(163, 122, 204);
+    }
+
+    &.theme-dark {
+        --code-background:  rgb(11, 14, 20);
+        --code-normal:      rgb(191, 189, 182);
+        --code-comment:     rgba(172, 182, 191, calc(140 / 255));
+        --code-function:    rgb(255, 180, 84);
+        --code-important:   rgb(149, 230, 203);
+        --code-keyword:     rgb(255, 143, 64);
+        --code-operator:    rgb(242, 150, 104);
+        --code-property:    rgb(89, 194, 255);
+        --code-punctuation: rgb(191, 189, 182);
+        --code-string:      rgb(170, 217, 76);
+        --code-tag:         rgb(57, 186, 230);
+        --code-value:       rgb(210, 166, 255);
+    }
+}

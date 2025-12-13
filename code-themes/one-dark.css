@@ -1,0 +1,39 @@
+/**
+ * @file code-themes/one-dark.css
+ * @copyright MIT License
+ */
+
+body {
+    --one-dark-h: 220deg;
+    --one-dark-s: 13%;
+    --one-dark-l: 18%;
+
+    --one-dark-mono-1:   hsl(var(--one-dark-h), 14%, 71%);
+    --one-dark-mono-2:   hsl(var(--one-dark-h),  9%, 55%);
+    --one-dark-mono-3:   hsl(var(--one-dark-l), 10%, 40%);
+
+    --one-dark-h-1:     hsl(187deg, 47%, 55%);
+    --one-dark-h-2:     hsl(207deg, 82%, 66%);
+    --one-dark-h-3:     hsl(286deg, 60%, 67%);
+    --one-dark-h-4:     hsl( 95deg, 38%, 62%);
+    --one-dark-h-5:     hsl(355deg, 65%, 65%);
+    --one-dark-h-5-2:   hsl(  5deg, 48%, 51%);
+    --one-dark-h-6:     hsl( 29deg, 54%, 61%);
+    --one-dark-h-6-2:   hsl( 39deg, 67%, 69%);
+
+    --one-dark-fg:      var(--one-dark-mono-1);
+    --one-dark-bg:      hsl(var(--one-dark-h), var(--one-dark-s), var(--one-dark-l));
+
+    --code-background:  var(--one-dark-bg);
+    --code-normal:      var(--one-dark-fg);
+    --code-comment:     darken(var(--one-dark-fg), 26%);
+    --code-function:    var(--one-dark-h-2);
+    --code-important:   var(--one-dark-h-1);
+    --code-keyword:     var(--one-dark-h-3);
+    --code-operator:    var(--one-dark-h-1);
+    --code-property:    var(--one-dark-h-5);
+    --code-punctuation: var(--one-dark-fg);
+    --code-string:      var(--one-dark-h-4);
+    --code-tag:         var(--one-dark-h-6-2);
+    --code-value:       var(--one-dark-h-6);
+}
